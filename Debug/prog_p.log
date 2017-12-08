@@ -1,7 +1,0 @@
-﻿cl : コマンド ライン warning D9007: '/Gm' には '/Zi または /ZI' が必要です。オプションは無視されます。
-  amida_solver.cpp
-amida_solver.cpp(67): warning C4101: 't': ローカル変数は 1 度も使われていません。
-  main.cpp
-d:\onedrive\prog_p\prog_p\amida_solver.cpp(67): warning C4101: 't': ローカル変数は 1 度も使われていません。
-  コードを生成中...
-  prog_p.vcxproj -> D:\OneDrive\prog_p\Debug\prog_p.exe
