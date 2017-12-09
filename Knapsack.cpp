@@ -27,8 +27,10 @@ public:
 		vector<bool> bit(N);
 
 		//‘S”’Tõ
-		for (int i = 0; i < pow(2, N) - 1; i++) {
+		for (int i = 0; i < pow(2, N); i++) {
+			if (i == 0)continue;
 			int j = N - 1;
+			
 
 			if (!bit[j])bit[j] = true;//binary adder
 			else {

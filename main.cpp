@@ -11,6 +11,8 @@
 #include "bomb_attack.cpp"
 #include "Alphabet_to_Int.cpp"
 #include "amida_solver.cpp"
+#include "Knapsack.cpp"
+#include "Sercle_town.cpp"
 
 using namespace std;
 
@@ -18,8 +20,10 @@ using namespace std;
 int main(void) {
 
 //	Bomb_Attack solution;	solution.DataReader();
-	puts("a");
-	Alpha_to_Int yh1;
-	yh1.Init_Alpha_to_Int();
+//	Alpha_to_Int yh1;
+//	yh1.Init_Alpha_to_Int();
+
+	Knapsack();
+//	Sercle_town();
 	return 0;
 }
